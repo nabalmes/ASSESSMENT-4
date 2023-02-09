@@ -1,0 +1,37 @@
+.Home-bg{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 180px 0;
+}
+
+.Home-bg  > div:first-child{
+    background: #e7edee70;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+
+    -moz-transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    transform: skew(-20deg, 0deg);
+    transition: all 1000ms ease-in-out;
+}
+
+.Home-bg  > div:first-child:hover{
+    -moz-transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+
+    transition: all 500ms ease-in-out;
+}
+
+.login-wrapper {
+    background: #08060636;
+    color: #e9d4d4;
+    backdrop-filter: blur(5px);
+    padding: 50px 20px;
+    border-radius: 10px;
+}

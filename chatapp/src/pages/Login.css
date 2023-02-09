@@ -1,0 +1,14 @@
+
+.bg-content{
+    align-items: center;
+    justify-content: center;
+}
+.bg-space{
+    margin-top: 80px;
+}
+
+
+#formBasicEmail,#formBasicPassword,#formBasicName.form-control {
+    background-color: #f3efef87 !important;
+    color: #000 !important;
+}

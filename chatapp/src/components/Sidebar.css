@@ -1,0 +1,45 @@
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.sidebar-online-status {
+    color: rgb(5, 172, 5);
+}
+
+.sidebar-offline-status {
+    color: #626260;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 12px;
+}
+
+.chats{
+    margin-top: 12px;
+    margin-bottom: 35px;
+
+    color: rgb(4 75 180);
+}
+.recent-chats{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.hover-chat:hover{
+    background-color: rgba(157, 159, 159, 0.086);
+    border-radius: 4px;
+}
+
+    

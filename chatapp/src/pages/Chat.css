@@ -1,0 +1,52 @@
+#root {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    height: calc(100vh - 76px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: url(https://cdn.wallpapersafari.com/32/28/ioYVIm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.chatContainer {
+    flex-direction: row-reverse;
+}
+
+.chatContainer >div:first-child{
+    background: #e7e7e759;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+@media (max-width: 767px){
+
+    .chatContainer >div:first-child{
+        transform: translateX(-100%);
+        transition: transform 500ms ease-in-out;
+        display: none;
+    } 
+
+    .chatContainer >div:first-child.show{
+        transform: translateX(0);
+        transition: transform 500ms ease-in-out;
+        display: block;
+        position: absolute;
+        z-index: 10;
+        height: 80vh;
+        width: 100%;
+        max-width: 564px;
+    } 
+}
+
+.form-control {
+    background-color: #ffffff08 !important;
+    border: 1px solid #ced4da61 !important;
+    color: #fff !important; 
+}
